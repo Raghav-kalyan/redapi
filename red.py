@@ -9,6 +9,6 @@ def redirect_to_url(url):
     return redirect("http://{url}")
 @app.route("/status/")
 def redirect():
-    return "PLEASE ENTER VALID URL"    
+    return "PLEASE ENTER A VALID URL"    
 if __name__ == '__main__':
     app.run(debug=True)
